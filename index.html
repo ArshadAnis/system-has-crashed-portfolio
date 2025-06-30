@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshad Anis Ahmed Shaikh - Author & Creator</title>
+    <meta name="description" content="Arshad Anis Ahmed Shaikh is a multipotentialite author and creator passionate about storytelling, technology, and creativity. Author of System Has Crashed.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/logo.svg" alt="Arshad Anis" class="nav-logo">
+                <span class="nav-brand-text">Arshad Anis</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#work" class="nav-link">My Work</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#support" class="nav-link">Support</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="btn btn-primary nav-cta" onclick="scrollToSection('support')">Support My Journey</button>
+            </div>
+            <div class="nav-hamburger" id="nav-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    <span class="gradient-text">System Has Crashed</span>
+                </h1>
+                <p class="hero-subtitle">
+                    A debut work exploring the crossroads of modern life, emotion, and identity. 
+                    Journey through the digital age with Arshad Anis Ahmed Shaikh.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large" onclick="scrollToSection('work')">
+                        <i class="fas fa-book-open"></i>
+                        Explore My Work
+                    </button>
+                    <button class="btn btn-secondary btn-large" onclick="scrollToSection('gallery')">
+                        <i class="fas fa-images"></i>
+                        View Gallery
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Published Work</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Skills</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Creative Ideas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-delay">
+                <div class="hero-graphic">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-pen-nib"></i>
+                        <span>Writing</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-code"></i>
+                        <span>Web Development</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-headphones"></i>
+                        <span>Audio Production</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in-up">About Me</h2>
+                <p class="section-subtitle fade-in-up">Multipotentialite author and creator passionate about storytelling, technology, and creativity</p>
+            </div>
+            <div class="about-content fade-in-up">
+                <p class="about-description">
+                    Arshad Anis Ahmed Shaikh is a multipotentialite author and creator passionate about storytelling,
+                    technology, and creativity. With a background in writing, web development, and audio
+                    production, he brings a unique blend of skills to everything he creates.
+                </p>
+                <p class="about-description">
+                    His debut work, <em>System Has Crashed</em>, explores the crossroads of modern life,
+                    emotion, and identity. When he's not writing or recording, Arshad can be found reading,
+                    nurturing garden vibes, or curating thoughtful content for his growing audience.
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3 class="feature-title">Writing</h3>
+                    <p class="feature-description">
+                        Creative storytelling and thoughtful content creation
+                    </p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title">Web Development</h3>
+                    <p class="feature-description">
+                        Building digital experiences and interactive solutions
+                    </p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Audio Production</h3>
+                    <p class="feature-description">
+                        Sound design and audio content creation
+                    </p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="feature-title">Creativity</h3>
+                    <p class="feature-description">
+                        Blending technology with artistic expression
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Work Section -->
+    <section id="work" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in-up">Featured Work</h2>
+                <p class="section-subtitle fade-in-up">System Has Crashed - A Literary Exploration</p>
+            </div>
+            <div class="work-showcase">
+                <div class="work-card fade-in-up">
+                    <div class="work-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="work-title">System Has Crashed</h3>
+                    <p class="work-description">
+                        A debut work exploring the crossroads of modern life, emotion, and identity.
+                        This piece delves into the human experience in our digital age.
+                    </p>
+                    <div class="work-details">
+                        <span class="work-tag">Literary Work</span>
+                        <span class="work-tag">Debut Book</span>
+                        <span class="work-tag">Digital Age</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="cta-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">System Has Crashed - Visual Gallery</h2>
+                <p class="section-subtitle fade-in-up">Explore the visual interpretations of my literary work</p>
+            </div>
+            <div class="gallery-grid fade-in-up">
+                <div class="gallery-item">
+                    <img src="https://arshad-book-site.rf.gd/attached_assets/posters/comic/Comic%20style%20poster%2001_1751199150083.png" alt="System Has Crashed Comic Style Poster 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://arshad-book-site.rf.gd/attached_assets/posters/comic/Comic%20style%20poster%2002_1751199150084.png" alt="System Has Crashed Comic Style Poster 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://arshad-book-site.rf.gd/attached_assets/posters/realistic/Realistic%20poster%2001_1751199150084.png" alt="System Has Crashed Realistic Poster">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://arshad-book-site.rf.gd/attached_assets/posters/promotional/Poster%20-%20A%20haunting%20exploration%20of%20identity_1751201239226.png" alt="A Haunting Exploration of Identity">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="pricing">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Support My Educational Journey</h2>
+                <p class="section-subtitle">Help Me Achieve My Dream</p>
+            </div>
+            
+            <div class="support-content fade-in-up">
+                <p class="support-description">
+                    I'm raising ₹10,00,000 to pursue my degree course and PhD in Psychology and Development. 
+                    Your support will help me advance my education and contribute meaningfully to the field of psychology.
+                </p>
+                
+                <div class="support-stats">
+                    <div class="support-stat">
+                        <span class="stat-label">Target Amount</span>
+                        <span class="stat-number">₹10,00,000</span>
+                    </div>
+                    <div class="support-stat">
+                        <span class="stat-label">Raised</span>
+                        <span class="stat-number">₹0</span>
+                    </div>
+                    <div class="support-stat">
+                        <span class="stat-label">Remaining</span>
+                        <span class="stat-number">₹10,00,000</span>
+                    </div>
+                    <div class="support-stat">
+                        <span class="stat-label">Supporters</span>
+                        <span class="stat-number">0</span>
+                    </div>
+                </div>
+                
+                <div class="support-benefits">
+                    <h3>What Your Support Enables:</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Complete my degree course</li>
+                        <li><i class="fas fa-check"></i> Pursue PhD in Psychology</li>
+                        <li><i class="fas fa-check"></i> Conduct meaningful research</li>
+                        <li><i class="fas fa-check"></i> Contribute to mental health awareness</li>
+                    </ul>
+                </div>
+                
+                <div class="support-actions">
+                    <button class="btn btn-primary btn-large">
+                        <i class="fas fa-heart"></i>
+                        Support My Journey
+                    </button>
+                    <p class="support-upi">Pay via UPI</p>
+                </div>
+                
+                <div class="support-amounts">
+                    <button class="amount-btn">₹500</button>
+                    <button class="amount-btn">₹1,000</button>
+                    <button class="amount-btn">₹2,500</button>
+                    <button class="amount-btn">₹5,000</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Let's connect and explore possibilities together.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info fade-in-up">
+                    <h3>Let's Connect</h3>
+                    <p class="contact-intro">Whether you want to discuss a project, share your thoughts on my work, or just say hello, I'd love to hear from you.</p>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919326722120">+91 9326722120</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:arshadshaikh9876.as@gmail.com">arshadshaikh9876.as@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container fade-in-up">
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Name *</label>
+                                <input type="text" id="contact-name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Email *</label>
+                                <input type="email" id="contact-email" name="email" class="form-input" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-company" class="form-label">Company</label>
+                            <input type="text" id="contact-company" name="company" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message" class="form-label">Message *</label>
+                            <textarea id="contact-message" name="message" class="form-input form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets/logo.svg" alt="Arshad Anis" class="footer-logo">
+                        <span class="footer-brand-text">Arshad Anis</span>
+                    </div>
+                    <p class="footer-description">
+                        Multipotentialite author and creator passionate about storytelling, technology, and creativity.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">My Work</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#support">Support</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Follow My Journey</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://arshad-book-site.rf.gd/" target="_blank">Official Website</a></li>
+                        <li><a href="https://youtube.com/@1arshadshaikh?si=r91aBVzGi2ClKVBl" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.instagram.com/1arshadshaikh?igsh=NzEyMTV4Ym5zejAw" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61578051712756&mibextid=ZbWKwL" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.snapchat.com/add/badasspb_17?share_id=lR2u-_pwS_Q&locale=en-IN" target="_blank">Snapchat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Stay Connected</h4>
+                    <p class="footer-description">
+                        Join my community and be the first to know about new works, creative insights, and exclusive content.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://youtube.com/@1arshadshaikh?si=r91aBVzGi2ClKVBl" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/1arshadshaikh?igsh=NzEyMTV4Ym5zejAw" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61578051712756&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.snapchat.com/add/badasspb_17?share_id=lR2u-_pwS_Q&locale=en-IN" target="_blank"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Arshad Anis Ahmed Shaikh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/futuristic-effects.js"></script>
+</body>
+</html>
